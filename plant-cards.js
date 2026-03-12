@@ -75,8 +75,8 @@
     // Patent badge
     var patentBadge = '';
     if (v.patent && v.patentUrl) {
-      patentBadge = '<a class="pc-patent-link" href="' + v.patentUrl + '" data-patent="true" target="_blank" rel="noopener">'
-                  + v.patent + ' ↗</a>';
+      patentBadge = '<span class="pc-patent-link" data-url="' + v.patentUrl + '">'
+                  + v.patent + ' ↗</span>';
     } else if (v.patentNote) {
       patentBadge = '<span class="pc-patent-pending">' + v.patentNote + '</span>';
     }
@@ -346,6 +346,14 @@
 
   // Globális újrainicializálás — modal újratöltéshez
   window.reinitPlantCards = function (scope) { init(scope); };
+
+  // Patent link handler — <span> mert Blogger az <a> tageket normalizálja
+  document.addEventListener('click', function (e) {
+    var el = e.target.closest('.pc-patent-link');
+    if (!el) return;
+    var url = el.getAttribute('data-url');
+    if (url) window.open(url, '_blank', 'noopener');
+  });
 
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', function () { init(); });
