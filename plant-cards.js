@@ -299,50 +299,56 @@
   }
 
   /* ---------------------------------------------------------
-     Belépési pont
+     Egy container inicializálása
   --------------------------------------------------------- */
-  function init() {
-    var containers = document.querySelectorAll('.plant-cards[data-src]');
-    if (!containers.length) return;
+  function initContainer(container) {
+    if (container.getAttribute('data-pc-init')) return;
+    container.setAttribute('data-pc-init', '1');
 
-    containers.forEach(function (container) {
-      var src       = container.getAttribute('data-src');
-      var cssUrl    = container.getAttribute('data-css');
-      // data-series="butterfly-candy little-rockstars" → szűrés
-      var seriesAttr = container.getAttribute('data-series');
-      var filterIds  = seriesAttr ? seriesAttr.trim().split(/\s+/) : [];
+    var src        = container.getAttribute('data-src');
+    var cssUrl     = container.getAttribute('data-css');
+    var seriesAttr = container.getAttribute('data-series');
+    var filterIds  = seriesAttr ? seriesAttr.trim().split(/\s+/) : [];
 
-      // CSS betöltés: ha data-css van, azt; ha nem, a JS melletti plant-cards.css
-      if (cssUrl) {
-        loadCSS(cssUrl);
-      } else {
-        // Automatikusan megtalálja a JS fájl melletti CSS-t
-        var scripts = document.querySelectorAll('script[src]');
-        scripts.forEach(function (s) {
-          if (s.src && s.src.indexOf('plant-cards.js') !== -1) {
-            loadCSS(s.src.replace('plant-cards.js', 'plant-cards.css'));
-          }
-        });
-      }
+    if (cssUrl) {
+      loadCSS(cssUrl);
+    } else {
+      var scripts = document.querySelectorAll('script[src]');
+      scripts.forEach(function (s) {
+        if (s.src && s.src.indexOf('plant-cards.js') !== -1) {
+          loadCSS(s.src.replace('plant-cards.js', 'plant-cards.css'));
+        }
+      });
+    }
 
-      container.innerHTML = '<div class="pc-loading">Betöltés…</div>';
+    container.innerHTML = '<div class="pc-loading">Betöltés…</div>';
 
-      fetch(src)
-        .then(function (r) {
-          if (!r.ok) throw new Error('HTTP ' + r.status);
-          return r.json();
-        })
-        .then(function (data) {
-          render(container, data, filterIds);
-        })
-        .catch(function (err) {
-          container.innerHTML = '<div class="pc-error">Nem sikerült betölteni az adatokat.<br><small>' + err.message + '</small></div>';
-        });
-    });
+    fetch(src)
+      .then(function (r) {
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        return r.json();
+      })
+      .then(function (data) {
+        render(container, data, filterIds);
+      })
+      .catch(function (err) {
+        container.innerHTML = '<div class="pc-error">Nem sikerült betölteni az adatokat.<br><small>' + err.message + '</small></div>';
+      });
   }
 
+  /* ---------------------------------------------------------
+     Belépési pont
+  --------------------------------------------------------- */
+  function init(scope) {
+    var root = scope || document;
+    root.querySelectorAll('.plant-cards[data-src]').forEach(initContainer);
+  }
+
+  // Globális újrainicializálás — modal újratöltéshez
+  window.reinitPlantCards = function (scope) { init(scope); };
+
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
+    document.addEventListener('DOMContentLoaded', function () { init(); });
   } else {
     init();
   }
