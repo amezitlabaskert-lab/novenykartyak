@@ -213,7 +213,7 @@
           "patent": "US PP36650",
           "patentUrl": "https://patents.justia.com/patent/PP36650",
           "color": {
-            "name": "Fehér, narancs torok",
+            "name": "Fehér",
             "rhs": "NN155B · 22B",
             "rgb": [243, 239, 232]
           },
@@ -314,11 +314,12 @@
         {
           "id": "buddaplav",
           "nameUS": "Lavender",
-          "nameEU": "Violet",
           "cultivar": "Buddaplav",
           "year": 2021,
           "patent": "US PP33625",
           "patentUrl": "https://patents.justia.com/patent/PP33625",
+          "availableMarkets": ["US"],
+          "marketNote": "Csak az amerikai piacon elérhető",
           "color": {
             "name": "Világos lila",
             "rhs": "N82B",
@@ -328,18 +329,19 @@
           "flowerSize": "~7 cm",
           "media": {
             "type": "image",
-            "url": "https://www.pepinieres-minier.fr/sites/default/files/produits/450-620/470996-05.jpg"
+            "url": "https://www.conard-pyle.com/wp-content/uploads/2021/08/Dapper-Lavender-Buddleia.jpg"
           }
         },
         {
           "id": "dapconwhi",
-          "name": "White",
+          "nameEU": "White",
+          "nameUS": "White",
           "cultivar": "Dapconwhi",
           "year": 2021,
           "patent": "US PP33566",
           "patentUrl": "https://patents.justia.com/patent/PP33566",
           "color": {
-            "name": "Fehér, narancssárga torok",
+            "name": "Fehér",
             "rhs": "NN155C · N25C",
             "rgb": [240, 238, 232]
           },
@@ -347,7 +349,7 @@
           "flowerSize": "~5 cm",
           "media": {
             "type": "image",
-            "url": "https://www.pepinieres-minier.fr/sites/default/files/produits/450-620/438924-02.jpg"
+            "url": "https://i.postimg.cc/Y0w44N3M/BUDDLEJA-davidii-TINY-BUDDY-WHITE-Dapcomwhi.jpg"
           }
         },
         {
@@ -367,17 +369,18 @@
           "flowerSize": "~14 cm",
           "media": {
             "type": "image",
-            "url": "https://www.pepinieres-minier.fr/sites/default/files/produits/450-620/470994-04.jpg"
+            "url": "https://i.postimg.cc/1XZgg0HP/BUDDLEJA-davidii-TINY-BUDDY-HOT-PINK-Condappin.jpg"
           }
         },
         {
           "id": "bud18blu20",
-          "name": "Blue",
+          "nameUS": "Blue",
           "cultivar": "Bud18blu20",
           "year": 2025,
           "patent": "US PP36916",
           "patentUrl": "https://patents.justia.com/patent/PP36916",
           "availableMarkets": ["US"],
+          "marketNote": "Csak az amerikai piacon elérhető",
           "color": {
             "name": "Kék-ibolya",
             "rhs": "94B",
@@ -407,7 +410,7 @@
           "flowerSize": null,
           "media": {
             "type": "image",
-            "url": "https://www.pepinieres-minier.fr/sites/default/files/produits/450-620/470996-05.jpg"
+            "url": "https://i.postimg.cc/Xq0ZZK8W/BUDDLEJA-davidii-TINY-BUDDY-VIOLET-3397ddybud.jpg"
           }
         },
         {
@@ -427,7 +430,7 @@
           "flowerSize": null,
           "media": {
             "type": "image",
-            "url": "https://www.pepinieres-minier.fr/sites/default/files/produits/450-620/438920-05.jpg"
+            "url": "https://i.postimg.cc/MH8cc0DS/BUDDLEJA-davidii-TINY-BUDDY-DEEP-BLUE-Tinpurbud.jpg"
           }
         }
       ]
@@ -864,7 +867,7 @@
           "patent": "US PP33846",
           "patentUrl": "https://patents.justia.com/patent/PP33846",
           "color": {
-            "name": "Fehér, narancs torok",
+            "name": "Fehér",
             "rhs": "NN155D · 13B/N25A",
             "rgb": [235, 232, 225]
           },
