@@ -71,6 +71,7 @@
   text-transform: uppercase;
   color: #b0a090;
   margin-bottom: 3px;
+
 }
 
 .pc-card-title {
@@ -193,7 +194,7 @@
   border-top: 1px solid #f0ece6;
 }
 
-.pc-media img {
+.pc-media img:not(.emoji) {
   display: block;
   width: 100%;
   max-height: 380px;
