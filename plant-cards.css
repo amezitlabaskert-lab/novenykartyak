@@ -71,7 +71,10 @@
   text-transform: uppercase;
   color: #b0a090;
   margin-bottom: 3px;
-
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-wrap: wrap;
 }
 
 .pc-card-title {
@@ -308,6 +311,20 @@
   color: #888;
   font-style: italic;
   margin-bottom: 8px;
+}
+
+/* --- Twemoji --- */
+img.emoji {
+  display: inline-block !important;
+  height: 1.2em !important;
+  width: 1.2em !important;
+  margin: 0 .1em 0 .1em !important;
+  vertical-align: -0.15em !important;
+  border: none !important;
+  background: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  max-height: 1.2em !important;
 }
 
 /* --- Loading / error --- */
