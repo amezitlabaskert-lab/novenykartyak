@@ -16,11 +16,7 @@
           "color": {
             "name": "Fehér",
             "rhs": "N155B",
-            "rgb": [
-              240,
-              230,
-              231
-            ]
+            "rgb": [240, 230, 231]
           },
           "habit": "Kompakt, felfelé törő, sűrű ágrendszer. Természetes formája oblong.",
           "flowerSize": "11.5 cm",
@@ -39,11 +35,7 @@
           "color": {
             "name": "Világos lila",
             "rhs": "N87D",
-            "rgb": [
-              186,
-              155,
-              191
-            ]
+            "rgb": [186, 155, 191]
           },
           "habit": "Sűrű, kompakt, kissé szétterülő, de alapvetően felfelé kerekedő.",
           "flowerSize": "11.5 cm",
@@ -62,11 +54,7 @@
           "color": {
             "name": "Orgonakék",
             "rhs": "85A",
-            "rgb": [
-              178,
-              164,
-              212
-            ]
+            "rgb": [178, 164, 212]
           },
           "habit": "Kompakt, de határozottan felfelé törő. Elegáns, vázaszerű alak.",
           "flowerSize": "11.5 cm",
@@ -85,11 +73,7 @@
           "color": {
             "name": "Kékeslila",
             "rhs": "90B",
-            "rgb": [
-              148,
-              132,
-              190
-            ]
+            "rgb": [148, 132, 190]
           },
           "habit": "Nagyon kompakt, sűrű ágrendszerű. Természetes formája felfelé kerekedő.",
           "flowerSize": "5.3 cm",
@@ -108,11 +92,7 @@
           "color": {
             "name": "Magenta-lila",
             "rhs": "77A",
-            "rgb": [
-              123,
-              53,
-              109
-            ]
+            "rgb": [123, 53, 109]
           },
           "habit": "Nagyon kompakt, sűrű és felfelé törő. Természetesen gömbölyded, rendezett forma.",
           "flowerSize": "6 cm",
@@ -131,11 +111,7 @@
           "color": {
             "name": "Élénk rózsaszín",
             "rhs": "N74C",
-            "rgb": [
-              211,
-              107,
-              179
-            ]
+            "rgb": [211, 107, 179]
           },
           "habit": "Rendkívül kompakt, sűrű és felfelé törő. Természetesen gömbölyded formát ölt.",
           "flowerSize": "12 cm",
@@ -155,11 +131,7 @@
             "name": "Cseresznyepiros → lazacrózsaszín",
             "rhs": "71C → 63A",
             "rhsNote": "fiatal → érett",
-            "rgb": [
-              200,
-              60,
-              100
-            ]
+            "rgb": [200, 60, 100]
           },
           "habit": "Sűrű, rendkívül kompakt és felfelé törő. Természetesen kerekded forma.",
           "flowerSize": "14 cm",
@@ -178,11 +150,7 @@
           "color": {
             "name": "Vöröses-rózsaszín",
             "rhs": "58B",
-            "rgb": [
-              183,
-              44,
-              100
-            ]
+            "rgb": [183, 44, 100]
           },
           "habit": "Sűrű, nagyon kompakt, felfelé törő. Természetes váza-alakú növekedés.",
           "flowerSize": "7 cm",
@@ -247,11 +215,7 @@
           "color": {
             "name": "Fehér, narancs torok",
             "rhs": "NN155B · 22B",
-            "rgb": [
-              243,
-              239,
-              232
-            ]
+            "rgb": [243, 239, 232]
           },
           "habit": "Extrém kompakt, sűrű, természetesen gömbölyded.",
           "flowerSize": "7 cm",
@@ -270,11 +234,7 @@
           "color": {
             "name": "Fukszia-rózsaszín",
             "rhs": "71C",
-            "rgb": [
-              172,
-              70,
-              128
-            ]
+            "rgb": [172, 70, 128]
           },
           "habit": "Nagyon tömött, felfelé törő, alacsony marad.",
           "flowerSize": "6.7 cm",
@@ -294,11 +254,7 @@
             "name": "Lila → magenta-lila",
             "rhs": "N81A → N74A",
             "rhsNote": "fiatal → érett",
-            "rgb": [
-              120,
-              47,
-              119
-            ]
+            "rgb": [120, 47, 119]
           },
           "habit": "Nagyon kompakt, sűrű növekedés.",
           "flowerSize": "6 cm",
@@ -317,11 +273,7 @@
           "color": {
             "name": "Világos rózsaszín",
             "rhs": "62B",
-            "rgb": [
-              240,
-              160,
-              186
-            ]
+            "rgb": [240, 160, 186]
           },
           "habit": "Halvány, lágy rózsaszín. Kompakt, felfelé törő növekedés.",
           "flowerSize": "7.2 cm",
@@ -340,11 +292,7 @@
           "color": {
             "name": "Lila-kék / orgona",
             "rhs": "90B",
-            "rgb": [
-              107,
-              86,
-              143
-            ]
+            "rgb": [107, 86, 143]
           },
           "habit": "Igazi orgonakék árnyalat. Kompakt, sűrű, gömbölyded habitus.",
           "flowerSize": "5.2 cm",
@@ -374,17 +322,13 @@
           "color": {
             "name": "Világos lila",
             "rhs": "N82B",
-            "rgb": [
-              178,
-              132,
-              190
-            ]
+            "rgb": [178, 132, 190]
           },
           "habit": "Kompakt, gömbölyded, mérsékelt növekedési erély. Felfelé törő ágak.",
           "flowerSize": "~7 cm",
           "media": {
             "type": "image",
-            "url": "https://www.minier.fr/media/catalog/product/cache/fd08c8d15c10fef1f0fe8dba8bde9d24/t/i/tiny_buddy_violet_buddleia.jpg"
+            "url": "https://www.pepinieres-minier.fr/sites/default/files/produits/450-620/470996-05.jpg"
           }
         },
         {
@@ -397,17 +341,13 @@
           "color": {
             "name": "Fehér, narancssárga torok",
             "rhs": "NN155C · N25C",
-            "rgb": [
-              240,
-              238,
-              232
-            ]
+            "rgb": [240, 238, 232]
           },
           "habit": "Kompakt, gömbölyded, mérsékelt növekedési erély. Sűrű elágazás.",
           "flowerSize": "~5 cm",
           "media": {
             "type": "image",
-            "url": "https://www.conard-pyle.com/wp-content/uploads/2021/08/Dapper-White-Buddleia.jpg"
+            "url": "https://www.pepinieres-minier.fr/sites/default/files/produits/450-620/438924-02.jpg"
           }
         },
         {
@@ -421,17 +361,13 @@
           "color": {
             "name": "Élénk pink",
             "rhs": "N81A",
-            "rgb": [
-              210,
-              110,
-              170
-            ]
+            "rgb": [210, 110, 170]
           },
           "habit": "Kompakt, jól elágazó, felfelé törő. Sűrű, egyenletes bokros alak.",
           "flowerSize": "~14 cm",
           "media": {
             "type": "image",
-            "url": "https://www.conard-pyle.com/wp-content/uploads/2024/01/Dapper-Pink-Buddleia-e1706021872641.jpg"
+            "url": "https://www.pepinieres-minier.fr/sites/default/files/produits/450-620/470994-04.jpg"
           }
         },
         {
@@ -441,17 +377,11 @@
           "year": 2025,
           "patent": "US PP36916",
           "patentUrl": "https://patents.justia.com/patent/PP36916",
-          "availableMarkets": [
-            "US"
-          ],
+          "availableMarkets": ["US"],
           "color": {
             "name": "Kék-ibolya",
             "rhs": "94B",
-            "rgb": [
-              100,
-              120,
-              200
-            ]
+            "rgb": [100, 120, 200]
           },
           "habit": "Kompakt, jól elágazó, felfelé törő. Alacsony termékenység.",
           "flowerSize": "~15 cm",
@@ -467,23 +397,17 @@
           "year": null,
           "patent": null,
           "patentNote": "Csak EU piac, nincs US patent",
-          "availableMarkets": [
-            "EU"
-          ],
+          "availableMarkets": ["EU"],
           "color": {
             "name": "Viola-lila",
             "rhs": null,
-            "rgb": [
-              140,
-              80,
-              160
-            ]
+            "rgb": [140, 80, 160]
           },
           "habit": null,
           "flowerSize": null,
           "media": {
             "type": "image",
-            "url": "https://www.minier.fr/media/catalog/product/cache/fd08c8d15c10fef1f0fe8dba8bde9d24/t/i/tiny_buddy_violet_buddleia_2.jpg"
+            "url": "https://www.pepinieres-minier.fr/sites/default/files/produits/450-620/470996-05.jpg"
           }
         },
         {
@@ -493,23 +417,17 @@
           "year": null,
           "patent": null,
           "patentNote": "Csak EU piac, nincs US patent",
-          "availableMarkets": [
-            "EU"
-          ],
+          "availableMarkets": ["EU"],
           "color": {
             "name": "Kékeslila",
             "rhs": null,
-            "rgb": [
-              80,
-              110,
-              180
-            ]
+            "rgb": [80, 110, 180]
           },
           "habit": null,
           "flowerSize": null,
           "media": {
             "type": "image",
-            "url": "https://www.minier.fr/media/catalog/product/cache/fd08c8d15c10fef1f0fe8dba8bde9d24/t/i/tiny_buddy_blue_buddleia.jpg"
+            "url": "https://www.pepinieres-minier.fr/sites/default/files/produits/450-620/438920-05.jpg"
           }
         }
       ]
@@ -532,11 +450,7 @@
           "color": {
             "name": "Kékeslila",
             "rhs": null,
-            "rgb": [
-              90,
-              110,
-              185
-            ]
+            "rgb": [90, 110, 185]
           },
           "habit": "Kompakt, szétterülő, erős ágak.",
           "flowerSize": null,
@@ -555,11 +469,7 @@
           "color": {
             "name": "Kékeslila",
             "rhs": null,
-            "rgb": [
-              80,
-              100,
-              175
-            ]
+            "rgb": [80, 100, 175]
           },
           "habit": "Még kompaktabb növekedés, steril fajta.",
           "flowerSize": null,
@@ -578,11 +488,7 @@
           "color": {
             "name": "Halványrózsaszín",
             "rhs": null,
-            "rgb": [
-              220,
-              130,
-              175
-            ]
+            "rgb": [220, 130, 175]
           },
           "habit": "A sorozat egyik legkisebb tagja. Kompakt, szétterülő habitus.",
           "flowerSize": null,
@@ -601,11 +507,7 @@
           "color": {
             "name": "Sötét vöröslila",
             "rhs": "72A",
-            "rgb": [
-              185,
-              45,
-              100
-            ]
+            "rgb": [185, 45, 100]
           },
           "habit": "Kompakt, felfelé törő, szétterülő. Sűrű, bozótos alak.",
           "flowerSize": "4–10 cm",
@@ -626,11 +528,7 @@
           "color": {
             "name": "Sötétlila",
             "rhs": null,
-            "rgb": [
-              120,
-              55,
-              155
-            ]
+            "rgb": [120, 55, 155]
           },
           "habit": "Kompakt, szétterülő habitus.",
           "flowerSize": null,
@@ -649,11 +547,7 @@
           "color": {
             "name": "Orgona-lila",
             "rhs": null,
-            "rgb": [
-              175,
-              158,
-              210
-            ]
+            "rgb": [175, 158, 210]
           },
           "habit": "Kompakt, szétterülő, alacsony növekedési erély.",
           "flowerSize": null,
@@ -673,11 +567,7 @@
           "color": {
             "name": "Fehér",
             "rhs": null,
-            "rgb": [
-              238,
-              235,
-              228
-            ]
+            "rgb": [238, 235, 228]
           },
           "habit": "Kompakt, szétterülő habitus.",
           "flowerSize": null,
@@ -697,11 +587,7 @@
           "color": {
             "name": "Purpurvörös",
             "rhs": null,
-            "rgb": [
-              195,
-              40,
-              80
-            ]
+            "rgb": [195, 40, 80]
           },
           "habit": "Kompakt. USA-ban kivonva, Európában Red Chip névvel forgalomban.",
           "flowerSize": null,
@@ -731,11 +617,7 @@
           "color": {
             "name": "Viola-kék",
             "rhs": "93A",
-            "rgb": [
-              93,
-              100,
-              178
-            ]
+            "rgb": [93, 100, 178]
           },
           "habit": "Kompakt, sűrű, kerekded, kissé szétterülő. Vastag, rövid ízközös szárak.",
           "flowerSize": "~16 cm",
@@ -756,11 +638,7 @@
           "color": {
             "name": "Élénk pink-lila",
             "rhs": null,
-            "rgb": [
-              215,
-              100,
-              158
-            ]
+            "rgb": [215, 100, 158]
           },
           "habit": "Kompakt, sűrű, kerekded. Vastag szárak, bőrszerű levelek. Robosztus alak.",
           "flowerSize": null,
@@ -780,11 +658,7 @@
           "color": {
             "name": "Orgona-lila-pink",
             "rhs": "80A–82A",
-            "rgb": [
-              148,
-              140,
-              210
-            ]
+            "rgb": [148, 140, 210]
           },
           "habit": "Kompakt, felfelé törő, kerekded.",
           "flowerSize": "~12 cm",
@@ -805,11 +679,7 @@
           "color": {
             "name": "Fehér",
             "rhs": "155D",
-            "rgb": [
-              235,
-              232,
-              225
-            ]
+            "rgb": [235, 232, 225]
           },
           "habit": "Kompakt, felfelé törő, kerekded. Óriási fehér bugák.",
           "flowerSize": "max 34 cm",
@@ -826,17 +696,11 @@
           "year": 2019,
           "patent": "US PP30236",
           "patentUrl": "https://patents.justia.com/patent/PP30236",
-          "availableMarkets": [
-            "US"
-          ],
+          "availableMarkets": ["US"],
           "color": {
             "name": "Viola-lila",
             "rhs": "84A",
-            "rgb": [
-              110,
-              60,
-              150
-            ]
+            "rgb": [110, 60, 150]
           },
           "habit": "Kompakt, felfelé törő. Rendkívül nagy, sűrű bugák.",
           "flowerSize": "14–19.5 cm",
@@ -853,17 +717,11 @@
           "year": 2021,
           "patent": "US PP33565",
           "patentUrl": "https://patents.justia.com/patent/PP33565",
-          "availableMarkets": [
-            "US"
-          ],
+          "availableMarkets": ["US"],
           "color": {
             "name": "Vöröses-lila-pink",
             "rhs": "N78B",
-            "rgb": [
-              200,
-              65,
-              110
-            ]
+            "rgb": [200, 65, 110]
           },
           "habit": "Kompakt, felfelé törő, kerekded. Nagy, sűrű bugák.",
           "flowerSize": "~12 cm",
@@ -882,11 +740,7 @@
           "color": {
             "name": "Élénk magenta",
             "rhs": null,
-            "rgb": [
-              230,
-              60,
-              130
-            ]
+            "rgb": [230, 60, 130]
           },
           "habit": null,
           "flowerSize": null,
@@ -904,11 +758,7 @@
           "color": {
             "name": "Halvány lila-fehér",
             "rhs": null,
-            "rgb": [
-              200,
-              175,
-              220
-            ]
+            "rgb": [200, 175, 220]
           },
           "habit": null,
           "flowerSize": null,
@@ -936,11 +786,7 @@
           "color": {
             "name": "Közép-viola",
             "rhs": "N89B–N89C",
-            "rgb": [
-              115,
-              80,
-              160
-            ]
+            "rgb": [115, 80, 160]
           },
           "habit": "Alacsony növekedési erély, kompakt gömbölyded. Steril.",
           "flowerSize": "~7.5 cm",
@@ -960,11 +806,7 @@
           "color": {
             "name": "Világos viola-kék",
             "rhs": "N88A–N88B",
-            "rgb": [
-              150,
-              138,
-              205
-            ]
+            "rgb": [150, 138, 205]
           },
           "habit": "Alacsony növekedési erély, kompakt gömbölyded. Steril.",
           "flowerSize": "~10.5 cm",
@@ -984,11 +826,7 @@
           "color": {
             "name": "Mély vöröses-lila",
             "rhs": "77A",
-            "rgb": [
-              165,
-              28,
-              68
-            ]
+            "rgb": [165, 28, 68]
           },
           "habit": "Alacsony növekedési erély, kompakt gömbölyded. Steril.",
           "flowerSize": "~15 cm",
@@ -1008,11 +846,7 @@
           "color": {
             "name": "Halvány lila-rózsaszín",
             "rhs": "N82C",
-            "rgb": [
-              195,
-              140,
-              185
-            ]
+            "rgb": [195, 140, 185]
           },
           "habit": "Alacsony növekedési erély, kompakt gömbölyded. Steril.",
           "flowerSize": "~11 cm",
@@ -1032,11 +866,7 @@
           "color": {
             "name": "Fehér, narancs torok",
             "rhs": "NN155D · 13B/N25A",
-            "rgb": [
-              235,
-              232,
-              225
-            ]
+            "rgb": [235, 232, 225]
           },
           "habit": "Alacsony növekedési erély, kompakt gömbölyded. Steril.",
           "flowerSize": "~9 cm",
