@@ -169,7 +169,7 @@
           "color": {
             "name": "Vibráló neon-rózsaszín",
             "rhs": null,
-            "rgb": null
+            "rgb": [220, 30, 120]
           },
           "habit": "Jól elágazó, természetesen kerekded, kompakt növekedés.",
           "flowerSize": null,
@@ -188,7 +188,7 @@
           "color": {
             "name": "Drámai sötétlila",
             "rhs": null,
-            "rgb": null
+            "rgb": [58, 30, 110]
           },
           "habit": "Természetesen kerekded, gömbölyű forma. A sorozat egyik legsűrűbb, legjobban elágazó tagja.",
           "flowerSize": null,
