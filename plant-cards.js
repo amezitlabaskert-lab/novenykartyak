@@ -1,8 +1,10 @@
 /* =========================================================
-   plant-cards.js  v2.1
+   plant-cards.js  v2.2
    Univerzális növénykártya-carousel JSON-ból
    
    Változások:
+     v2.2 - YouTube: youtube-nocookie.com domain, rel=0, modestbranding=1,
+             iv_load_policy=3 (annotációk ki), kevesebb ajánló és tracking
      v2.1 - CSS fix: pc-card display:none/flex váltás (overflow:hidden vágta a videót);
              JS fix: kártyaváltáskor iframe src reset a hang leállításához
      v2.0 - YouTube iframe fix: rel=0, playsinline=1, enablejsapi=1, origin param,
@@ -398,7 +400,7 @@
     if (url) window.open(url, '_blank', 'noopener');
   });
 
-  console.log('%c🌿 plant-cards.js v2.1 betöltve', 'color: #7b4ea0; font-weight: bold;');
+  console.log('%c🌿 plant-cards.js v2.2 betöltve', 'color: #7b4ea0; font-weight: bold;');
 
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', function () { init(); });
