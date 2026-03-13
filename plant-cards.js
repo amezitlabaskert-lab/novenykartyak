@@ -365,6 +365,8 @@
     if (url) window.open(url, '_blank', 'noopener');
   });
 
+  console.log('%c🌿 plant-cards.js v1.3 betöltve', 'color: #7b4ea0; font-weight: bold;');
+
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', function () { init(); });
   } else {
