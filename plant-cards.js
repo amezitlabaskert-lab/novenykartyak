@@ -286,18 +286,7 @@
 
     container.innerHTML = html;
 
-    // Twemoji a JS-generált tartalomra
-    if (window.twemoji) {
-      twemoji.parse(container, {
-        folder: 'svg', ext: '.svg',
-        callback: function (icon, options) {
-          if (icon.indexOf('1f1') === 0) {
-            return ''.concat(options.base, options.size, '/', icon, options.ext);
-          }
-          return false;
-        }
-      });
-    }
+    // Twemoji ideiglenesen kikapcsolva (teszt)
 
     // Inicializálás
     data.series.forEach(function (series, si) {
