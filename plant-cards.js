@@ -1,9 +1,11 @@
 /* =========================================================
-   plant-cards.js  v1.9
+   plant-cards.js  v2.0
    Univerzális növénykártya-carousel JSON-ból
    
    Változások:
-     v1.9 - habitus szekció: habit / virágméret / illat külön sorban jelenik meg.
+     v2.0 - YouTube iframe fix: rel=0, playsinline=1, enablejsapi=1, origin param,
+             frameborder=0, teljes allow attribútum a lejátszáshoz
+     v1.9 - habitus szekció: habit / virágméret / illat külön sorban jelenik meg
      v1.8 - habitus label fix: Habitus · Virágméret · Illat mindig megjelenik; hiányzó adat: n.a.
      v1.7 - patent badge: ↗ → 🔗 emoji; Twemoji: csak zászló emojik (1f1xx)
      v1.6 - Twemoji fix: explicit CDN base, callback eltávolítva; CSS: img.emoji fix
@@ -132,10 +134,22 @@
     var mediaSection = '';
     if (v.media) {
       if (v.media.type === 'youtube' && v.media.id) {
+        // rel=0: ne ajánljon más videókat
+        // playsinline=1: mobilon ne ugorjon teljes képernyőre
+        // enablejsapi=1: JS API engedélyezve
+        // origin: CORS hiba elkerülése
+        var ytParams = '?rel=0&playsinline=1&enablejsapi=1'
+                     + '&origin=' + encodeURIComponent(window.location.origin);
         mediaSection = '<div class="pc-media">'
           + '<div class="pc-video-wrap">'
-          + '<iframe src="https://www.youtube.com/embed/' + v.media.id + '" '
-          + 'title="' + name + '" allowfullscreen loading="lazy"></iframe>'
+          + '<iframe '
+          + 'src="https://www.youtube.com/embed/' + v.media.id + ytParams + '" '
+          + 'title="' + name + '" '
+          + 'frameborder="0" '
+          + 'allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" '
+          + 'allowfullscreen '
+          + 'loading="lazy">'
+          + '</iframe>'
           + '</div></div>';
       } else if (v.media.type === 'image' && v.media.url) {
         mediaSection = '<div class="pc-media">'
@@ -372,7 +386,7 @@
     if (url) window.open(url, '_blank', 'noopener');
   });
 
-  console.log('%c🌿 plant-cards.js v1.9 betöltve', 'color: #7b4ea0; font-weight: bold;');
+  console.log('%c🌿 plant-cards.js v2.0 betöltve', 'color: #7b4ea0; font-weight: bold;');
 
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', function () { init(); });
