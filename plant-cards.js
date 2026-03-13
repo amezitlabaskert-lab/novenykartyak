@@ -1,8 +1,9 @@
 /* =========================================================
-   plant-cards.js  v1.6
+   plant-cards.js  v1.7
    Univerzális növénykártya-carousel JSON-ból
    
    Változások:
+     v1.7 - patent badge: ↗ → 🔗 emoji; Twemoji: csak zászló emojik (1f1xx)
      v1.6 - Twemoji fix: explicit CDN base, callback eltávolítva; CSS: img.emoji fix
      v1.5 - Twemoji visszarakva, CSS fix: .pc-media img:not(.emoji)
      v1.4 - Twemoji kikapcsolva (teszt)
@@ -84,7 +85,7 @@
     var patentBadge = '';
     if (v.patent && v.patentUrl) {
       patentBadge = '<span class="pc-patent-link" data-url="' + v.patentUrl + '">'
-                  + v.patent + ' ↗</span>';
+                  + v.patent + ' 🔗</span>';
     } else if (v.patentNote) {
       patentBadge = '<span class="pc-patent-pending">' + v.patentNote + '</span>';
     }
@@ -294,7 +295,14 @@
       twemoji.parse(container, {
         folder: 'svg',
         ext: '.svg',
-        base: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/'
+        base: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/',
+        callback: function (icon, options) {
+          // Csak zászló emojikat cseréljük (1f1xx sorozat)
+          if (icon.indexOf('1f1') === 0) {
+            return ''.concat(options.base, options.size, '/', icon, options.ext);
+          }
+          return false;
+        }
       });
     }
 
@@ -364,7 +372,7 @@
     if (url) window.open(url, '_blank', 'noopener');
   });
 
-  console.log('%c🌿 plant-cards.js v1.6 betöltve', 'color: #7b4ea0; font-weight: bold;');
+  console.log('%c🌿 plant-cards.js v1.7 betöltve', 'color: #7b4ea0; font-weight: bold;');
 
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', function () { init(); });
