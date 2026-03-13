@@ -1,9 +1,10 @@
 /* =========================================================
-   plant-cards.js  v1.4
+   plant-cards.js  v1.5
    Univerzális növénykártya-carousel JSON-ból
    
    Változások:
-     v1.4 - Twemoji kikapcsolva (teszt: ez okozza-e a szétesést?)
+     v1.5 - Twemoji visszarakva, CSS fix: .pc-media img:not(.emoji)
+     v1.4 - Twemoji kikapcsolva (teszt)
      v1.3 - Twemoji parse a JS-generált tartalomra (render után)
      v1.2 - h2 sorozatnév és meta sor (breeder, hardiness) eltávolítva
      v1.1 - eredeti verzió
@@ -287,7 +288,18 @@
 
     container.innerHTML = html;
 
-    // Twemoji ideiglenesen kikapcsolva (teszt)
+    // Twemoji a JS-generált tartalomra
+    if (window.twemoji) {
+      twemoji.parse(container, {
+        folder: 'svg', ext: '.svg',
+        callback: function (icon, options) {
+          if (icon.indexOf('1f1') === 0) {
+            return ''.concat(options.base, options.size, '/', icon, options.ext);
+          }
+          return false;
+        }
+      });
+    }
 
     // Inicializálás
     data.series.forEach(function (series, si) {
@@ -355,7 +367,7 @@
     if (url) window.open(url, '_blank', 'noopener');
   });
 
-  console.log('%c🌿 plant-cards.js v1.4 betöltve', 'color: #7b4ea0; font-weight: bold;');
+  console.log('%c🌿 plant-cards.js v1.5 betöltve', 'color: #7b4ea0; font-weight: bold;');
 
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', function () { init(); });
