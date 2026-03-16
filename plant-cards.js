@@ -51,7 +51,7 @@
 
   function buildCard(v, seriesName) {
     var name    = displayName(v);
-    var cultivar = v.cultivar ? "'" + v.cultivar + "'" + (v.year ? ' (' + v.year + ')' : '') : '';
+    var cultivar = v.cultivar ? v.cultivar + (v.year ? ' (' + v.year + ')' : '') : '';
     var accent  = accentGradient(v.color);
 
     var patentBadge = '';
