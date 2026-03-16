@@ -137,15 +137,15 @@
 }
 
 .pc-market-us {
-  border: 1px solid #aac4e8;
-  background: #eaf3fb;
-  color: #1a5fa0;
+  border: 1px solid #e8b0b0;
+  background: #fdf0f0;
+  color: #a03030;
 }
 
 .pc-market-eu {
-  border: 1px solid #f5c842;
-  background: #fffbe6;
-  color: #7a6000;
+  border: 1px solid #aac4e8;
+  background: #eaf3fb;
+  color: #1a5fa0;
 }
 
 /* --- Details --- */
