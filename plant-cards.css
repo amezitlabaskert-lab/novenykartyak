@@ -23,8 +23,6 @@
 
 /* --- Kártya --- */
 .pc-card {
-  /* Inaktív kártyák: teljesen rejtve, de NEM absolute —
-     az absolute + overflow:hidden kombó vágta le a videót */
   display: none;
   width: 100%;
   background: #fff;
@@ -74,6 +72,14 @@
   flex-wrap: wrap;
 }
 
+/* --- Title row (name + market badge) --- */
+.pc-card-title-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
 .pc-card-title {
   font-family: "Cormorant Garamond", Georgia, serif;
   font-size: 22px;
@@ -116,6 +122,30 @@
   padding: 4px 12px;
   white-space: nowrap;
   flex-shrink: 0;
+}
+
+/* --- Market badge --- */
+.pc-market-badge {
+  border-radius: 20px;
+  font-size: 12px;
+  padding: 4px 12px;
+  white-space: nowrap;
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.pc-market-us {
+  border: 1px solid #aac4e8;
+  background: #eaf3fb;
+  color: #1a5fa0;
+}
+
+.pc-market-eu {
+  border: 1px solid #f5c842;
+  background: #fffbe6;
+  color: #7a6000;
 }
 
 /* --- Details --- */
