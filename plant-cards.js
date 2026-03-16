@@ -20,6 +20,7 @@
 
   function displayName(v) {
     if (v.name) return v.name;
+    if (v.nameEU && v.nameUS && v.nameEU === v.nameUS) return v.nameEU;
     var parts = [];
     if (v.nameEU) parts.push(v.nameEU);
     if (v.nameUS) parts.push(v.nameUS);
