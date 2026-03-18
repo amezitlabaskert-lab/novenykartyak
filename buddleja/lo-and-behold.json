@@ -2,13 +2,11 @@
   "series": [
     {
       "id": "lo-behold",
-      "name": "Lo & Behold®",
       "breeder": "North Carolina State University",
-      "hardiness": "-18°C",
+      "hardiness": "-8°C (5. zóna)",
       "varieties": [
         {
           "id": "blue-chip",
-          "name": "'Blue Chip'",
           "cultivar": "'Blue Chip'",
           "year": 2009,
           "patent": "US PP19991",
@@ -28,11 +26,12 @@
           "media": {
             "type": "youtube",
             "id": "sYfx_NJWkG0"
-          }
+          },
+          "nameUS": "'Blue Chip'",
+          "nameEU": "'Blue Chip'"
         },
         {
           "id": "blue-chip-jr",
-          "name": "'Blue Chip Jr'",
           "cultivar": "'Blue Chip Jr'",
           "year": 2016,
           "patent": "US PP26581",
@@ -52,11 +51,12 @@
           "media": {
             "type": "youtube",
             "id": "C5JCx8lU5c4"
-          }
+          },
+          "nameUS": "'Blue Chip Jr'",
+          "nameEU": "'Blue Chip Jr'"
         },
         {
           "id": "ice-chip",
-          "name": "'Ice Chip'",
           "cultivar": "'Ice Chip'",
           "year": 2013,
           "patent": "US PP24015",
@@ -76,11 +76,12 @@
           "media": {
             "type": "youtube",
             "id": "feKv1kaHaAE"
-          }
+          },
+          "nameUS": "'Ice Chip'",
+          "nameEU": "'White Chip'"
         },
         {
           "id": "lilac-chip",
-          "name": "'Lilac Chip'",
           "cultivar": "'Lilac Chip'",
           "year": 2013,
           "patent": "US PP24016",
@@ -100,11 +101,12 @@
           "media": {
             "type": "image",
             "url": "https://i.postimg.cc/9XZvYJ7Y/Buddleia-Lo-Behold-Lilac-Chip.jpg"
-          }
+          },
+          "nameUS": "'Lilac Chip'",
+          "nameEU": "'Lilac Chip'"
         },
         {
           "id": "miss-molly",
-          "name": "'Miss Molly'",
           "cultivar": "'Miss Molly'",
           "year": 2013,
           "patent": "US PP23425",
@@ -124,11 +126,12 @@
           "media": {
             "type": "image",
             "url": "https://i.postimg.cc/44VrQB9W/Buddleia-Lo-Behold-Miss-Molly.jpg"
-          }
+          },
+          "nameUS": "'Miss Molly'",
+          "nameEU": "'Red Chip'"
         },
         {
           "id": "pink-micro-chip",
-          "name": "'Pink Micro Chip'",
           "cultivar": "'Pink Micro Chip'",
           "year": 2016,
           "patent": "US PP26547",
@@ -148,11 +151,12 @@
           "media": {
             "type": "image",
             "url": "https://i.postimg.cc/BZHdBMKh/Buddleia-Lo-Behold-Pink-Micro-Chip.jpg"
-          }
+          },
+          "nameUS": "'Pink Micro Chip'",
+          "nameEU": "'Pink Micro Chip'"
         },
         {
           "id": "purple-haze",
-          "name": "'Purple Haze'",
           "cultivar": "'Purple Haze'",
           "year": 2014,
           "patent": "US PP24514",
@@ -172,11 +176,12 @@
           "media": {
             "type": "image",
             "url": "https://i.postimg.cc/CMkWsmqP/Buddleia-Lo-Behold-Purple-Haze.jpg"
-          }
+          },
+          "nameUS": "'Purple Haze'",
+          "nameEU": "'Purple Chip'"
         },
         {
           "id": "ruby-chip",
-          "name": "'Ruby Chip'",
           "cultivar": "'SMNBDD'",
           "year": 2020,
           "patent": "US PP32399",
@@ -196,9 +201,13 @@
           "media": {
             "type": "image",
             "url": "https://i.postimg.cc/XNdTkQCT/Buddleia-Lo-Behold-Ruby-Chip.jpg"
-          }
+          },
+          "nameUS": "'Ruby Chip'",
+          "nameEU": "'Ruby Chip'"
         }
-      ]
+      ],
+      "nameUS": "Lo & Behold®",
+      "nameEU": "Lo & Behold®"
     }
   ]
 }
