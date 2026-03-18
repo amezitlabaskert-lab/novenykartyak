@@ -1,0 +1,135 @@
+{
+  "series": [
+    {
+      "id": "chrysalis",
+      "name": "Chrysalis™",
+      "breeder": "🇺🇸 Ball Horticultural Company / Darwin Perennials",
+      "hardiness": "-26°C",
+      "sterile": true,
+      "varieties": [
+        {
+          "id": "balchryurp",
+          "name": "'Purple'",
+          "cultivar": "'Balchryurp'",
+          "year": 2022,
+          "patent": "US PP33847",
+          "patentUrl": "https://patents.justia.com/patent/PP33847",
+          "color": {
+            "name": "Közép-viola",
+            "rhs": "N89B",
+            "rgb": [115, 80, 160]
+          },
+          "habit": "Alacsony növekedési erély, kompakt, gömbölyded.",
+          "flowerSize": "~7.5 cm",
+          "scent": "Enyhén édes illat",
+          "media": {
+            "type": "image",
+            "url": "https://i.postimg.cc/4NgVYbtS/Buddleia-Chrysalis-Purple.jpg"
+          }
+        },
+        {
+          "id": "balchrylu",
+          "name": "'Blue'",
+          "cultivar": "'Balchrylu'",
+          "year": 2022,
+          "patent": "US PP33842",
+          "patentUrl": "https://patents.justia.com/patent/PP33842",
+          "color": {
+            "name": "Világos viola → fehéres",
+            "rhs": "N88A → 155B",
+            "rhsNote": "friss → érett",
+            "rgb": [150, 138, 205]
+          },
+          "habit": "Alacsony növekedési erély, kompakt, gömbölyded.",
+          "flowerSize": "~10.5 cm",
+          "scent": "Enyhén édes illat",
+          "media": {
+            "type": "image",
+            "url": "https://i.postimg.cc/4yzc8mCS/Buddleia-Chrysalis-Blue.jpg"
+          }
+        },
+        {
+          "id": "balchryran",
+          "name": "'Cranberry'",
+          "cultivar": "'Balchryran'",
+          "year": 2022,
+          "patent": "US PP33845",
+          "patentUrl": "https://patents.justia.com/patent/PP33845",
+          "color": {
+            "name": "Mély vöröslila → rózsás lila",
+            "rhs": "77A → NN78B",
+            "rhsNote": "friss → érett",
+            "rgb": [165, 28, 68]
+          },
+          "habit": "Alacsony növekedési erély, kompakt, gömbölyded.",
+          "flowerSize": "~15 cm",
+          "scent": "Enyhén édes illat",
+          "media": {
+            "type": "image",
+            "url": "https://i.postimg.cc/j2zf8LV3/Buddleia-Chrysalis-Cranberry.jpg"
+          }
+        },
+        {
+          "id": "balchryink",
+          "name": "'Pink'",
+          "cultivar": "'Balchryink'",
+          "year": 2022,
+          "patent": "US PP33843",
+          "patentUrl": "https://patents.justia.com/patent/PP33843",
+          "color": {
+            "name": "Halvány lila-rózsaszín",
+            "rhs": "N82C",
+            "rgb": [195, 140, 185]
+          },
+          "habit": "Alacsony növekedési erély, kompakt, gömbölyded.",
+          "flowerSize": "~11 cm",
+          "scent": "Enyhén édes illat",
+          "media": {
+            "type": "image",
+            "url": "https://i.postimg.cc/mkQ9dtxq/Buddleia-Chrysalis-Pink.jpg"
+          }
+        },
+        {
+          "id": "balchryite",
+          "name": "'White'",
+          "cultivar": "'Balchryite'",
+          "year": 2022,
+          "patent": "US PP33846",
+          "patentUrl": "https://patents.justia.com/patent/PP33846",
+          "color": {
+            "name": "Fehér",
+            "rhs": "NN155C",
+            "rgb": [235, 232, 225]
+          },
+          "habit": "Alacsony növekedési erély, kompakt, gömbölyded.",
+          "flowerSize": "~9 cm",
+          "scent": "Enyhén édes illat",
+          "media": {
+            "type": "image",
+            "url": "https://i.postimg.cc/MHyBsvkr/Buddleia-Chrysalis-White.jpg"
+          }
+        },
+        {
+          "id": "balchryeel",
+          "name": "'Steel Blue'",
+          "cultivar": "'Balchryeel'",
+          "year": 2025,
+          "patent": "US PP36598",
+          "patentUrl": "https://patents.justia.com/patent/PP36598",
+          "color": {
+            "name": "Élénk viola-kék",
+            "rhs": "94C",
+            "rgb": [100, 110, 185]
+          },
+          "habit": "Közepes növekedési erély, kompakt, felfelé törő és szétterülő.",
+          "flowerSize": "~10 cm",
+          "scent": "Enyhe, édes illat",
+          "media": {
+            "type": "image",
+            "url": "https://i.postimg.cc/L4fj40q6/Buddleia-Chrysalis-Steel-Blue.jpg"
+          }
+        }
+      ]
+    }
+  ]
+}
