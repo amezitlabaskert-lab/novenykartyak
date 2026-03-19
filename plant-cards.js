@@ -150,8 +150,8 @@
 
   function buildCarousel(series, carouselId) {
     var seriesDisplayName = series.name ||
-      [series.nameUS ? '🇺🇸 ' + series.nameUS : '',
-       series.nameEU ? '🇪🇺 ' + series.nameEU : '']
+      [series.nameUS ? 'US ' + series.nameUS : '',
+       series.nameEU ? 'EU ' + series.nameEU : '']
       .filter(Boolean).join(' / ') || '';
     var cards = series.varieties.map(function (v) {
       return buildCard(v, seriesDisplayName);
