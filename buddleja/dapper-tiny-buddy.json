@@ -12,6 +12,18 @@
           "id": "buddaplav",
           "nameUS": "'Lavender'",
           "cultivar": "'Buddaplav'",
+          "year": 2021,
+          "patent": "US PP33625",
+          "patentUrl": "https://patents.justia.com/patent/PP33625",
+          "availableMarkets": ["US"],
+          "color": {
+            "name": "Világos lila",
+            "rhs": "N82B",
+            "rgb": [178, 132, 190]
+          },
+          "habit": "Kompakt, gömbölyded, mérsékelt növekedési erély.",
+          "flowerSize": "~7 cm",
+          "scent": "Közepesen erős, édes illat",
           "media": {
             "type": "image",
             "url": "https://drive.google.com/thumbnail?id=1rxHrmJXqgfdvSHdmK9mQB-qUHt-zfYUq&sz=w1600"
@@ -22,6 +34,17 @@
           "nameUS": "'White'",
           "nameEU": "'White'",
           "cultivar": "'Dapconwhi'",
+          "year": 2021,
+          "patent": "US PP33566",
+          "patentUrl": "https://patents.justia.com/patent/PP33566",
+          "color": {
+            "name": "Fehér",
+            "rhs": "NN155C · N25C",
+            "rgb": [240, 238, 232]
+          },
+          "habit": "Kompakt, gömbölyded, mérsékelt növekedési erély.",
+          "flowerSize": "~5 cm",
+          "scent": "Közepesen erős, édes illat",
           "media": {
             "type": "image",
             "url": "https://drive.google.com/thumbnail?id=1qVSJNgGrzZxevJASTeLslNf6TTspUXpr&sz=w1600"
@@ -32,6 +55,17 @@
           "nameUS": "'Pink'",
           "nameEU": "'Hot Pink'",
           "cultivar": "'Condappin'",
+          "year": 2024,
+          "patent": "US PP35922",
+          "patentUrl": "https://patents.justia.com/patent/PP35922",
+          "color": {
+            "name": "Élénk pink",
+            "rhs": "N81A",
+            "rgb": [210, 110, 170]
+          },
+          "habit": "Kompakt, jól elágazó, felfelé törő.",
+          "flowerSize": "~14 cm",
+          "scent": "Nagyon enyhe illat",
           "media": {
             "type": "image",
             "url": "https://drive.google.com/thumbnail?id=1AzhpwFlpaq876ZqUpeWgpnCD1OdHDQti&sz=w1600"
@@ -41,6 +75,18 @@
           "id": "bud18blu20",
           "nameUS": "'Blue'",
           "cultivar": "'Bud18blu20'",
+          "year": 2025,
+          "patent": "US PP36916",
+          "patentUrl": "https://patents.justia.com/patent/PP36916",
+          "availableMarkets": ["US"],
+          "color": {
+            "name": "Kék-ibolya",
+            "rhs": "94B",
+            "rgb": [100, 120, 200]
+          },
+          "habit": "Kompakt, jól elágazó, felfelé törő.",
+          "flowerSize": "~15 cm",
+          "scent": "Közepes erősségű illat",
           "media": {
             "type": "image",
             "url": "https://drive.google.com/thumbnail?id=1EjEoPNTFsIbyzy2RVenQgGB1hO18bhnm&sz=w1600"
@@ -50,6 +96,18 @@
           "id": "3397ddybud",
           "nameEU": "'Violet'",
           "cultivar": "'3397Ddybud'",
+          "year": 2025,
+          "patent": null,
+          "patentNote": "Csak EU piac, nincs US patent",
+          "availableMarkets": ["EU"],
+          "color": {
+            "name": "Viola-lila",
+            "rhs": null,
+            "rgb": [140, 80, 160]
+          },
+          "habit": "Kompakt, gömbölyded.",
+          "flowerSize": null,
+          "scent": "Illatos",
           "media": {
             "type": "image",
             "url": "https://drive.google.com/thumbnail?id=1QFxuItZNRuvqexUJAwvxijvTATv0jwEg&sz=w1600"
@@ -59,6 +117,18 @@
           "id": "tinpurbud",
           "nameEU": "'Deep Blue'",
           "cultivar": "'Tinpurbud'",
+          "year": 2025,
+          "patent": null,
+          "patentNote": "Csak EU piac, nincs US patent",
+          "availableMarkets": ["EU"],
+          "color": {
+            "name": "Kékeslila",
+            "rhs": null,
+            "rgb": [80, 110, 180]
+          },
+          "habit": "Kompakt, gömbölyded.",
+          "flowerSize": null,
+          "scent": "Illatos",
           "media": {
             "type": "image",
             "url": "https://drive.google.com/thumbnail?id=1nQjBqyT_Ioq30a5yOpt0dNDa-ZNWVTCS&sz=w1600"
